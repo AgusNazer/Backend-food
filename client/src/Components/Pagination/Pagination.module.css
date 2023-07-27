@@ -1,0 +1,50 @@
+.listContainer {
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.lis {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 6px;
+}
+
+.lis button {
+  font-size: 13px;
+  border: none;
+  border-radius: 25px;
+  background-color: #507B58;
+  color: white;
+  cursor: pointer;
+  padding: 6px 15px;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+  font-weight: bold;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.lis button:hover {
+  background-color: #005500;
+}
+
+.lis button:first-of-type,
+.lis button:last-of-type {
+  background-color: #606d66;
+}
+
+.lis button:first-of-type:hover,
+.lis button:last-of-type:hover {
+  background-color: #3d5f44;
+}
+
+.lis button.activePage {
+  background-color: rgb(252, 213, 53);
+}
+
+

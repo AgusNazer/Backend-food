@@ -1,0 +1,112 @@
+
+
+.imgCreatedRecipe {
+  /* border: 1px solid red; */
+  
+  background-color: #232323;
+  padding: 20px;
+  font-family: 'Syne Mono', monospace;
+}
+
+.detailContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftSection {
+  flex: 2;
+  margin-right: 20px;
+}
+
+.recipeDetails,.recipesummary, .recipeInstructions {
+  background-color: #383838;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.recipeTitle {
+  font-size: 24px;
+  color: #f9f5e8;
+  margin-bottom: 10px;
+}
+
+.recipeDetail {
+  font-size: 20px;
+  color: #f9f5e8;
+  margin-bottom: 5px;
+}
+
+.containerSummary {
+  margin-top: 20px;
+
+}
+
+.summaryTitle,.instructionsTitle, .recipeDiets  {
+  font-size: 18px;
+  color: #f9f5e8;
+  margin-bottom: 10px;
+}
+
+.summaryText {
+  font-size: 16px;
+  color: #f9f5e8;
+}
+
+.containerInstructions, .containerDiets {
+  margin-top: 20px;
+}
+
+.instructionsText {
+  font-size: 16px;
+  color: #f9f5e8;
+}
+
+.dietsTitle, .dietItem  {
+  font-size: 18px;
+  color: #f9f5e8;
+  margin-bottom: 10px;
+}
+
+.dietsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.rightSection {
+  /* border: 2px solid white; */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageContainer {
+  margin-bottom: 20px;
+}
+
+.recipeImage {
+  border: 1px solid green;
+  /* max-width: 100%; */
+  width: 450px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.homeButton {
+  background-color: #cac7bd;
+  color: #232323;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px 0 25px;
+  cursor: pointer;
+}
+
+.homeButton:hover {
+  background-color: rgb(252, 213, 53);
+}
+.loadingText {
+  font-size: 30px;
+  color: white;
+}

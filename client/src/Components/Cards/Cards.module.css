@@ -1,0 +1,36 @@
+
+
+  .cards {
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    /* opacity: 0.9; */
+
+  }
+  
+  @media (max-width: 900px) {
+    .cards {
+      grid-template-columns: repeat(2, 1fr); /* Cambiar a 2 tarjetas por fila */
+    }
+    
+    .card {
+      width: calc(50% - 5px);
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .cards {
+      grid-template-columns: repeat(1, 1fr); /* Cambiar a 1 tarjeta por fila */
+    }
+    
+    .card {
+      width: 100%;
+    }
+  }
+  

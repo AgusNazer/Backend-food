@@ -1,0 +1,84 @@
+/* .filterSearchContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a3939;
+    padding: 1rem;
+    border: 2px solid rgb(168, 168, 150);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    height: 5rem;
+ 
+  } */
+  
+  .filterList {
+    
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+
+    column-gap: 1rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .filterItem {
+   
+
+    margin-bottom: 12px;
+  }
+  
+  .filterTitle {
+    
+
+    color: black;
+    font-size: 18px;
+    font-weight:900;
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 16px;
+  }
+  
+  .filterTitle::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #000000;
+  }
+  
+  .filterSelect {
+    border: 2px solid green;
+
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  option {
+    
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+  }
+  .errors{
+    color: red;
+    font-size: 20px;
+  }
+
+  .diets{
+    
+  }

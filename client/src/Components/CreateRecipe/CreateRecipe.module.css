@@ -1,0 +1,99 @@
+
+
+.maxContainer {
+  background-image: url(../../assets//createRecipe.avif);
+  background-size: contain;
+  background-repeat:no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  /* height: ; */
+  background-color: #222;
+  color: #fff;
+}
+
+.containerWrapper {
+  border: 1px solid  rgb(79, 73, 50);
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.CContainer h1 {
+  font-size: 24px;
+  /* text-align: center; */
+  /* margin-bottom: 10px; */
+}
+
+.formu {
+  display: flex;
+  flex-direction: column;
+  /* margin: 15px 0; */
+}
+
+.inputContainer {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.imagePreview {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  
+}
+
+/* .label {
+  display: block;
+  margin-bottom: 10px;
+} */
+
+.input,
+.inputNum,
+.inputIma,
+.textarea {
+  width: 100%;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #444;
+  color: #fff;
+}
+
+.checkbox {
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.greenButton,
+.redButton {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.greenButton {
+  background-color: rgb(252, 213, 53);
+  margin-bottom: 10px;
+}
+
+.redButton {
+  background-color: rgb(79, 73, 50);
+}

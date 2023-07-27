@@ -1,0 +1,35 @@
+
+  
+  .footerContainer {
+
+    width: 100%;
+    padding: 20px 0;
+    background-color: #201e1e;
+    text-align: center;
+  }
+  
+  .footerContent {
+    color: #666;
+  }
+  
+  .iconsContainer {
+    margin-top: 20px;
+  }
+  
+  .icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #d8d5d5;
+  }
+  
+  .icon:hover {
+    color: #396c48;
+  }
+.textos{
+  color: rgb(243, 239, 239);
+}
+
+.lineaHr{
+  margin:5px;
+  border: 2px solid #201e1e;
+}
